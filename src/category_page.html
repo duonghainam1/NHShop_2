@@ -219,17 +219,19 @@
                         </div>
                         <div class="pb-6 border-b">
                             <p class="font-light text-[12px] text-[#717378] pt-5 pb-3">FILTER BY PRICE</p>
-                            <div>
-                                <div class="flex justify-between items-center">
-                                    <div class="p-2 bg-[#F4F4F4] rounded-full">$0</div>
-                                    <div class="p-2 bg-[#F4F4F4] rounded-full">$50,000.00</div>
+                            <div class="mt-4">
+
+                                <div class="flex justify-between text-xs text-gray-500 mt-1">
+                                    <span class="bg-gray-100 text-black font-bold py-2 px-2 rounded-full">$0</span>
+                                    <span
+                                        class="bg-gray-100 text-black font-bold py-2 px-2 rounded-full">$50,000,000</span>
                                 </div>
-                                <div class="py-4 flex items-center">
-                                    <div class="w-4 h-4 rounded-full bg-black"></div>
-                                    <div class="w-full h-1 bg-black"></div>
-                                    <div class="w-4 h-4 rounded-full bg-black"></div>
+                                <input type="range" id="price-range" min="0" max="50000000" value="0"
+                                    class="w-full mt-2">
+                                <div class="flex mt-4">
+                                    <a href="" class="btn btn-sm">Apply</a>
                                 </div>
-                                <button class="btn">Apply</button>
+
                             </div>
                         </div>
                         <div class="pb-6 border-b">
